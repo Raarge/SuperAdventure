@@ -36,7 +36,6 @@
             this.lblGold = new System.Windows.Forms.Label();
             this.lblExperiance = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
-            this.btnTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -107,16 +106,7 @@
             this.lblLevel.Size = new System.Drawing.Size(0, 13);
             this.lblLevel.TabIndex = 7;
             // 
-            // btnTest
-            // 
-            this.btnTest.Location = new System.Drawing.Point(21, 616);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(75, 23);
-            this.btnTest.TabIndex = 8;
-            this.btnTest.Text = "Test";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
-            // 
+            
             // SuperAdventure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
