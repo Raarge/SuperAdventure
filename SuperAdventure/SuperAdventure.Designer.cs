@@ -112,7 +112,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(719, 651);
-            this.Controls.Add(this.btnTest);
             this.Controls.Add(this.lblLevel);
             this.Controls.Add(this.lblExperiance);
             this.Controls.Add(this.lblGold);
@@ -138,7 +137,7 @@
         private System.Windows.Forms.Label lblGold;
         private System.Windows.Forms.Label lblExperiance;
         private System.Windows.Forms.Label lblLevel;
-        private System.Windows.Forms.Button btnTest;
+       
     }
 }
 
