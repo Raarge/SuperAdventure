@@ -8,5 +8,15 @@
         public int RewardExperiancePoints { get; set; }
         public int RewardGold { get; set; }
 
+        public Monster(int id, string name, int maximumDamage, int rewardExperiancePoints, int rewardGold,
+            int currentHitPoints, int maximumHitPoints)
+            : base(currentHitPoints, maximumHitPoints)
+        {
+            ID = id;
+            Name = name;
+            MaximumDamage = maximumDamage;
+            RewardExperiancePoints = rewardExperiancePoints;
+            RewardGold = rewardGold;
+        }
     }
 }
