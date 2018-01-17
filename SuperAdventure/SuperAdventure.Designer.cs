@@ -34,7 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.lblHitPoints = new System.Windows.Forms.Label();
             this.lblGold = new System.Windows.Forms.Label();
-            this.lblExperiance = new System.Windows.Forms.Label();
+            this.lblExperience = new System.Windows.Forms.Label();
             this.lblLevel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.cboWeapons = new System.Windows.Forms.ComboBox();
@@ -105,13 +105,13 @@
             this.lblGold.Size = new System.Drawing.Size(0, 13);
             this.lblGold.TabIndex = 5;
             // 
-            // lblExperiance
+            // lblExperience
             // 
-            this.lblExperiance.AutoSize = true;
-            this.lblExperiance.Location = new System.Drawing.Point(110, 73);
-            this.lblExperiance.Name = "lblExperiance";
-            this.lblExperiance.Size = new System.Drawing.Size(0, 13);
-            this.lblExperiance.TabIndex = 6;
+            this.lblExperience.AutoSize = true;
+            this.lblExperience.Location = new System.Drawing.Point(110, 73);
+            this.lblExperience.Name = "lblExperience";
+            this.lblExperience.Size = new System.Drawing.Size(0, 13);
+            this.lblExperience.TabIndex = 6;
             // 
             // lblLevel
             // 
@@ -275,7 +275,7 @@
             this.Controls.Add(this.cboWeapons);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblLevel);
-            this.Controls.Add(this.lblExperiance);
+            this.Controls.Add(this.lblExperience);
             this.Controls.Add(this.lblGold);
             this.Controls.Add(this.lblHitPoints);
             this.Controls.Add(this.label4);
@@ -299,7 +299,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblHitPoints;
         private System.Windows.Forms.Label lblGold;
-        private System.Windows.Forms.Label lblExperiance;
+        private System.Windows.Forms.Label lblExperience;
         private System.Windows.Forms.Label lblLevel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cboWeapons;
